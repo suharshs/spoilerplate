@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "spoilerplate",
+  "description": "Hides facebook posts that spoil the plot of different shows (i.e Breaking Bad).",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "css": ["spoilerplate.css"],
+      "js": ["spoilerplate.js"],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ]
+}
