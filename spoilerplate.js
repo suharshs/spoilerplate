@@ -1,5 +1,5 @@
 
-var SPOILER_WORDS = ["breaking bad", "brba", "br ba", "breakingbad", "cheese"];
+var SPOILER_WORDS = ["breaking bad", "brba", "br ba", "breakingbad"];
 
 // Start the spoiler loop.
 blockSpoilers();
